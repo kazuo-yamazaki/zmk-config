@@ -16,6 +16,7 @@
         combo_return {
             bindings = <&kp GREATER_THAN>;
             key-positions = <21 20>;
+            layers = <0>;
         };
     };
 
