@@ -10,6 +10,16 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        combo_return {
+            bindings = <&kp RETURN>;
+            key-positions = <21 20>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
