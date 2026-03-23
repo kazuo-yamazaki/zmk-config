@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         combo_return {
-            bindings = <&kp GREATER_THAN>;
+            bindings = <&kp RETURN>;
             key-positions = <21 20>;
             layers = <0>;
         };
