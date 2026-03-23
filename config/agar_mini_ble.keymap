@@ -10,6 +10,15 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        combo_return {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <21 20>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
