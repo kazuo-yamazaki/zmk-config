@@ -50,7 +50,7 @@
 
         layer_8 {
             bindings = <
-&trans  &kp NUMBER_1   &kp N2       &kp N3     &kp N4     &kp N5  &kp NUMBER_6    &kp N7        &kp N8            &kp N0             &kp MINUS         &trans  &trans
+&trans  &kp NUMBER_1   &kp N2       &kp N3     &kp N4     &kp N5  &kp NUMBER_6    &kp N7        &kp N8            &kp N9             &kp N0            &trans  &trans
 &trans  &kp BACKSLASH  &kp AT_SIGN  &kp COLON  &kp PLUS   &trans  &kp UNDERSCORE  &kp EQUAL     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(QUESTION)  &trans
 &trans  &kp PIPE       &kp TILDE    &trans     &kp GRAVE  &trans  &kp SLASH       &kp ASTERISK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans            &trans
         &trans         &trans                  &trans             &kp SEMICOLON                                   &kp RALT           &kp RCTRL
