@@ -17,13 +17,13 @@
         combo_return {
             bindings = <&kp RETURN>;
             key-positions = <21 20>;
-            layers = <0 3 1>;
+            layers = <0 3 3>;
         };
 
         comb_tab {
             bindings = <&kp ESCAPE>;
             key-positions = <17 16>;
-            layers = <0 3 1>;
+            layers = <0 3 3>;
         };
     };
 
