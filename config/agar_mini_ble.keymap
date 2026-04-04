@@ -107,7 +107,7 @@
         compatible = "zmk,conditional-layers";
 
         combineLayer2 {
-            if-layers = <1 2 0>;
+            if-layers = <0 2 1>;
             then-layer = <1>;
         };
     };
