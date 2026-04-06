@@ -21,7 +21,7 @@
         };
 
         comb_tab {
-            bindings = <&kp ESCAPE>;
+            bindings = <&kp LS(CAPSLOCK)>;
             key-positions = <17 16>;
             layers = <0 3 3>;
         };
@@ -50,19 +50,19 @@
 
         layer_8 {
             bindings = <
-&trans  &kp NUMBER_1   &kp N2       &kp N3     &kp N4     &kp N5  &kp NUMBER_6    &kp N7        &kp N8            &kp N9             &kp N0            &trans  &trans
-&trans  &kp BACKSLASH  &kp AT_SIGN  &kp COLON  &kp PLUS   &trans  &kp UNDERSCORE  &kp EQUAL     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(QUESTION)  &trans
-&trans  &kp PIPE       &kp TILDE    &trans     &kp GRAVE  &trans  &kp SLASH       &kp ASTERISK  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans            &trans
-        &trans         &trans                  &trans             &kp SEMICOLON                                   &kp RALT           &kp RCTRL
+&trans  &kp NUMBER_1   &kp N2       &kp N3     &kp N4     &kp N5  &kp NUMBER_6    &kp N7        &kp N8          &kp N9           &kp N0            &trans  &trans
+&trans  &kp BACKSLASH  &kp AT_SIGN  &kp COLON  &kp PLUS   &trans  &kp UNDERSCORE  &kp EQUAL     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LS(QUESTION)  &trans
+&trans  &kp PIPE       &kp TILDE    &trans     &kp GRAVE  &trans  &kp SLASH       &kp ASTERISK  &kp PERIOD      &kp COMMA        &trans            &trans
+        &trans         &trans                  &trans             &kp SEMICOLON                                 &kp RALT         &kp RCTRL
             >;
         };
 
         layer3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans  &trans  &bootloader
-&trans  &trans  &trans  &trans  &trans  &trans  &out OUT_USB  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans  &trans
-        &trans  &trans          &trans          &bootloader                               &trans        &trans
+&trans  &trans  &soft_off  &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans  &trans  &bootloader
+&trans  &trans  &trans     &trans  &trans  &trans  &out OUT_USB  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans
+&trans  &trans  &trans     &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans  &trans
+        &trans  &trans             &trans          &bootloader                               &trans        &trans
             >;
         };
 
