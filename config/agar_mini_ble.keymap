@@ -21,7 +21,7 @@
         };
 
         comb_tab {
-            bindings = <&kp LS(CAPSLOCK)>;
+            bindings = <&kp LC(SPACE)>;
             key-positions = <17 16>;
             layers = <0 3 3>;
         };
