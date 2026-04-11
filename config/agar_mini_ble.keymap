@@ -20,10 +20,15 @@
             layers = <0 3 3>;
         };
 
-        comb_tab {
+        combo_kanji {
             bindings = <&kp LC(SPACE)>;
             key-positions = <17 16>;
             layers = <0 3 3>;
+        };
+
+        combo_caps {
+            bindings = <&kp CAPS>;
+            key-positions = <15 16>;
         };
     };
 
